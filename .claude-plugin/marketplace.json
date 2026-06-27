@@ -1,0 +1,114 @@
+{
+  "listing": {
+    "id": "user-psychology-skill",
+    "name": "User Psychology Skill",
+    "tagline": "Auto-apply conversion psychology to every UI you build",
+    "description": "Stop building UI that looks good but does not convert. This skill teaches Claude 10 proven user psychology principles so every interface it builds is automatically optimized for conversion. Works across ecommerce, SaaS, fintech, healthcare, and edtech. Claude detects your industry, applies the right psychology combination, and explains every design decision it makes.",
+    "category": "Design & UX",
+    "subcategory": "Conversion Optimization",
+    "price": "free",
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": {
+      "name": "rugvedtech1",
+      "github": "https://github.com/rugvedtech1",
+      "repository": "https://github.com/rugvedtech1/user-psychology-skill"
+    }
+  },
+  "features": [
+    {
+      "title": "Auto Industry Detection",
+      "description": "Claude automatically detects whether you are building for ecommerce, SaaS, fintech, healthcare, or edtech and applies the correct psychology combination."
+    },
+    {
+      "title": "10 Core Psychology Principles",
+      "description": "CTA psychology, color theory, social proof, FOMO, eye patterns, above-fold hooks, pricing psychology, form optimization, trust signals, and dark pattern avoidance."
+    },
+    {
+      "title": "Real World Analysis",
+      "description": "Learn from how Amazon, Netflix, Spotify, Razorpay, and Swiggy apply psychology at scale. These examples are baked into Claude's responses."
+    },
+    {
+      "title": "Psychology Decisions Table",
+      "description": "Every UI Claude generates includes a Psychology Decisions table explaining which principles were applied, why, and what conversion impact to expect."
+    },
+    {
+      "title": "A/B Test Recommendations",
+      "description": "Claude automatically suggests the top 3 elements to A/B test first based on the industry and principles applied."
+    },
+    {
+      "title": "Multi-Platform Support",
+      "description": "Works on Claude Desktop, Claude Code, Cursor, Windsurf, GitHub Copilot, Gemini CLI, Continue, and Roo Code."
+    }
+  ],
+  "useCases": [
+    {
+      "title": "Landing Page Optimization",
+      "prompt": "Build a landing page for my fintech startup",
+      "result": "Claude applies trust signals, blue color psychology, minimal FOMO, and above-fold hooks specific to fintech"
+    },
+    {
+      "title": "Pricing Page Design",
+      "prompt": "Create a pricing page for my SaaS product",
+      "result": "Claude applies decoy pricing, anchoring, middle plan highlight, annual toggle psychology, and risk reversal"
+    },
+    {
+      "title": "Checkout Optimization",
+      "prompt": "Design a checkout flow for my ecommerce store",
+      "result": "Claude reduces form fields, adds progress bars, applies trust badges, and includes FOMO signals near CTA"
+    },
+    {
+      "title": "Healthcare Portal",
+      "prompt": "Build a homepage for my telemedicine platform",
+      "result": "Claude applies maximum trust signals, zero FOMO, doctor credentials psychology, and calm color palette"
+    },
+    {
+      "title": "Edtech Course Page",
+      "prompt": "Create a course enrollment page for my bootcamp",
+      "result": "Claude applies cohort FOMO, placement statistics social proof, EMI pricing psychology, and outcome-focused headlines"
+    }
+  ],
+  "stats": {
+    "principlesIncluded": 10,
+    "industriesCovered": 5,
+    "realWorldExamples": 5,
+    "platformsSupported": 8,
+    "totalKnowledgeLines": 4000
+  },
+  "installation": {
+    "npm": "npx user-psychology-skill install",
+    "manual": "Copy CLAUDE.md and .claude/ folder to your project root",
+    "cursor": "npx user-psychology-skill install --platform cursor",
+    "windsurf": "npx user-psychology-skill install --platform windsurf",
+    "all": "npx user-psychology-skill install --platform all"
+  },
+  "screenshots": [
+    {
+      "title": "Psychology Decisions Table",
+      "description": "Claude explains every design decision with expected conversion impact",
+      "file": "screenshots/psychology-decisions-table.png"
+    },
+    {
+      "title": "Industry Auto-Detection",
+      "description": "Claude detects fintech and applies trust-heavy psychology automatically",
+      "file": "screenshots/industry-detection.png"
+    },
+    {
+      "title": "CLI Installer",
+      "description": "One command installs the skill for any AI platform",
+      "file": "screenshots/cli-installer.png"
+    }
+  ],
+  "changelog": {
+    "1.0.0": {
+      "date": "2025-06-01",
+      "changes": [
+        "Initial release with 10 core psychology principles",
+        "Support for 5 industries",
+        "Real world analysis of Amazon, Netflix, Spotify, Razorpay, Swiggy",
+        "CLI installer with multi-platform support",
+        "Industry reasoning engine with decision trees"
+      ]
+    }
+  }
+}

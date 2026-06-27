@@ -1,0 +1,49 @@
+{
+  "name": "user-psychology-skill",
+  "version": "1.0.0",
+  "description": "An AI Skill that teaches Claude and other AI assistants user psychology principles to automatically build high-converting, psychologically optimized UI/UX",
+  "main": "index.js",
+  "bin": {
+    "user-psychology-skill": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "keywords": [
+    "ai-skill",
+    "claude",
+    "psychology",
+    "ux",
+    "ui",
+    "conversion-optimization",
+    "cta",
+    "fomo",
+    "social-proof",
+    "pricing-psychology",
+    "trust-signals",
+    "dark-patterns",
+    "cursor",
+    "windsurf",
+    "mcp"
+  ],
+  "author": "rugvedtech1",
+  "license": "MIT",
+  "homepage": "https://github.com/rugvedtech1/user-psychology-skill",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rugvedtech1/user-psychology-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rugvedtech1/user-psychology-skill/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js",
+    "../.claude/",
+    "../CLAUDE.md",
+    "../skill.json",
+    "../src/"
+  ]
+}

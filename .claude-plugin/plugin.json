@@ -1,0 +1,122 @@
+{
+  "id": "user-psychology-skill",
+  "name": "User Psychology Skill",
+  "version": "1.0.0",
+  "description": "Teaches Claude user psychology principles to automatically build high-converting, psychologically optimized UI/UX. Covers CTA psychology, color theory, FOMO, social proof, pricing psychology, trust signals, and more.",
+  "author": {
+    "name": "rugvedtech1",
+    "url": "https://github.com/rugvedtech1"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/rugvedtech1/user-psychology-skill",
+  "category": "design",
+  "tags": [
+    "psychology",
+    "ux",
+    "ui",
+    "conversion",
+    "cta",
+    "fomo",
+    "social-proof",
+    "pricing",
+    "trust",
+    "ecommerce",
+    "saas",
+    "fintech",
+    "healthcare",
+    "edtech"
+  ],
+  "entrypoint": ".claude/skills/user-psychology/SKILL.md",
+  "activationFile": "CLAUDE.md",
+  "autoActivate": true,
+  "autoActivationTriggers": [
+    "landing page",
+    "homepage",
+    "UI",
+    "UX",
+    "design",
+    "interface",
+    "pricing page",
+    "checkout",
+    "signup form",
+    "product page",
+    "dashboard",
+    "ecommerce",
+    "saas",
+    "fintech",
+    "healthcare",
+    "edtech",
+    "conversion",
+    "CTA",
+    "button"
+  ],
+  "capabilities": {
+    "readFiles": true,
+    "writeFiles": false,
+    "networkAccess": false,
+    "runCommands": false
+  },
+  "skillFiles": [
+    ".claude/skills/user-psychology/SKILL.md",
+    "src/principles/01-cta-psychology.md",
+    "src/principles/02-color-psychology.md",
+    "src/principles/03-social-proof.md",
+    "src/principles/04-fomo-scarcity.md",
+    "src/principles/05-eye-patterns.md",
+    "src/principles/06-above-fold.md",
+    "src/principles/07-pricing-psychology.md",
+    "src/principles/08-form-psychology.md",
+    "src/principles/09-trust-signals.md",
+    "src/principles/10-dark-patterns.md",
+    "src/industries/ecommerce.md",
+    "src/industries/saas.md",
+    "src/industries/fintech.md",
+    "src/industries/healthcare.md",
+    "src/industries/edtech.md",
+    "src/examples/amazon-analysis.md",
+    "src/examples/netflix-analysis.md",
+    "src/examples/spotify-analysis.md",
+    "src/examples/razorpay-analysis.md",
+    "src/examples/swiggy-analysis.md",
+    "src/reasoning/industry-rules.md"
+  ],
+  "outputFormat": {
+    "requiresPsychologyDecisionsTable": true,
+    "requiresABTestRecommendations": true,
+    "tableColumns": [
+      "Principle",
+      "Applied",
+      "Reason",
+      "Expected Impact"
+    ]
+  },
+  "supportedIndustries": [
+    "ecommerce",
+    "saas",
+    "fintech",
+    "healthcare",
+    "edtech"
+  ],
+  "supportedPrinciples": [
+    "CTA Psychology",
+    "Color Psychology",
+    "Social Proof Patterns",
+    "FOMO and Scarcity Design",
+    "F-Pattern and Z-Pattern Eye Movement",
+    "Above The Fold Psychology",
+    "Pricing Page Psychology",
+    "Form Completion Psychology",
+    "Trust Signals",
+    "Dark Patterns to Avoid"
+  ],
+  "realWorldExamples": [
+    "Amazon",
+    "Netflix",
+    "Spotify",
+    "Razorpay",
+    "Swiggy"
+  ],
+  "minClaudeVersion": "3.0.0",
+  "installCommand": "npx user-psychology-skill install",
+  "documentationUrl": "https://github.com/rugvedtech1/user-psychology-skill/blob/main/docs/how-it-works.md"
+}

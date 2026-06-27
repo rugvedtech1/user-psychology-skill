@@ -1,0 +1,115 @@
+{
+  "name": "user-psychology-skill",
+  "version": "1.0.0",
+  "displayName": "User Psychology Skill",
+  "description": "Teaches AI assistants user psychology principles to automatically build high-converting, psychologically optimized UI/UX. Covers CTA psychology, color theory, FOMO, social proof, pricing psychology, trust signals, and more.",
+  "author": "rugvedtech1",
+  "license": "MIT",
+  "homepage": "https://github.com/rugvedtech1/user-psychology-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rugvedtech1/user-psychology-skill.git"
+  },
+  "keywords": [
+    "psychology",
+    "ux",
+    "ui",
+    "conversion-optimization",
+    "cta",
+    "fomo",
+    "social-proof",
+    "pricing-psychology",
+    "trust-signals",
+    "dark-patterns",
+    "ecommerce",
+    "saas",
+    "fintech",
+    "healthcare",
+    "edtech"
+  ],
+  "platforms": {
+    "claude-desktop": {
+      "supported": true,
+      "entrypoint": ".claude/skills/user-psychology/SKILL.md",
+      "autoActivate": true
+    },
+    "claude-code": {
+      "supported": true,
+      "entrypoint": "CLAUDE.md",
+      "autoActivate": true
+    },
+    "cursor": {
+      "supported": true,
+      "entrypoint": ".cursorrules",
+      "autoActivate": true
+    },
+    "windsurf": {
+      "supported": true,
+      "entrypoint": ".windsurfrules",
+      "autoActivate": true
+    },
+    "github-copilot": {
+      "supported": true,
+      "entrypoint": ".github/copilot-instructions.md",
+      "autoActivate": true
+    },
+    "gemini-cli": {
+      "supported": true,
+      "entrypoint": "GEMINI.md",
+      "autoActivate": true
+    },
+    "continue": {
+      "supported": true,
+      "entrypoint": ".continuerules",
+      "autoActivate": true
+    },
+    "roo-code": {
+      "supported": true,
+      "entrypoint": ".roo/rules.md",
+      "autoActivate": true
+    }
+  },
+  "principles": [
+    "CTA Psychology",
+    "Color Psychology",
+    "Social Proof Patterns",
+    "FOMO and Scarcity Design",
+    "F-Pattern and Z-Pattern Eye Movement",
+    "Above The Fold Psychology",
+    "Pricing Page Psychology",
+    "Form Completion Psychology",
+    "Trust Signals",
+    "Dark Patterns to Avoid"
+  ],
+  "industries": [
+    "ecommerce",
+    "saas",
+    "healthcare",
+    "fintech",
+    "edtech"
+  ],
+  "realWorldExamples": [
+    "Amazon",
+    "Netflix",
+    "Spotify",
+    "Razorpay",
+    "Swiggy"
+  ],
+  "skillEntrypoint": ".claude/skills/user-psychology/SKILL.md",
+  "autoActivationTriggers": [
+    "build a landing page",
+    "create a UI",
+    "design a homepage",
+    "build a pricing page",
+    "create a signup form",
+    "design a product page",
+    "build a checkout page",
+    "create a dashboard",
+    "design a website",
+    "build a SaaS app",
+    "create an ecommerce store",
+    "build a fintech app",
+    "design a healthcare portal",
+    "create an edtech platform"
+  ]
+}
